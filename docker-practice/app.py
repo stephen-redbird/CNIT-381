@@ -30,7 +30,8 @@ def index():
   
 @app.route("/check") 
 def check(): 
-dupes = find_duplicates(load_devices()) 
-return {"duplicates": dupes, "ok": len(dupes) == 0} 
+    dupes = find_duplicates(load_devices()) 
+    return {"duplicates": dupes, "ok": len(dupes) == 0} 
+
 if __name__ == "__main__": 
-app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000) 
