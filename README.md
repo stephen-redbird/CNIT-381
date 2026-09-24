@@ -9,4 +9,6 @@ and resolving a merge conflict while building the UW-Stout CNIT
 Cybersecurity Technology Hub.
 ## Week 3
 Containerized a duplicate-IP checker with Docker and published the image to Docker Hub.
-
+## Week 4 
+Built a network config pipeline: an intent file plus a generator, containerized, 
+with CI/CD that regenerates and validates the configs on every change. 
