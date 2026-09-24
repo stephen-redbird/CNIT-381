@@ -13,5 +13,5 @@ devices:
     interfaces:
       - name: Vlan10 
         description: Management 
-        ip: 192.168.10.2 
+        ip: 192.168.10.1       
         mask: 255.255.255.0 
