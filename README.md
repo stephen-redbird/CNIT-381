@@ -17,3 +17,6 @@ with CI/CD that regenerates and validates the configs on every change.
 Docker, run by GitHub Actions on every push, that opens a GitHub issue 
 through the API when the plan has errors. 
 **Repo:** https://github.com/stephen-redbird/ip-plan-check 
+## Week 11: RESTCONF on a 3650 Switch 
+What I did: enabled RESTCONF on the switch, then read and changed its config 
+with Postman and a Python script. What I learned: Just how easy it is to remotely configure cisco switches when you have the right tools and knowhow.  IDK how ill want to go back to configuring switches by hand after this.
