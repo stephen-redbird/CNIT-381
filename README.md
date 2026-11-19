@@ -20,3 +20,10 @@ through the API when the plan has errors.
 ## Week 11: RESTCONF on a 3650 Switch 
 What I did: enabled RESTCONF on the switch, then read and changed its config 
 with Postman and a Python script. What I learned: Just how easy it is to remotely configure cisco switches when you have the right tools and knowhow.  IDK how ill want to go back to configuring switches by hand after this.
+## Week 11 — AI Network Agent Web App 
+**What I built:** I built a webapp that works with claude AI to translate commands
+given in plain english into actions conducted on my cisco hardware without a need for knowing 
+the exact verbage used.  The webapp also keeps a live picture of the network showing the status
+of the network in real time.
+**What I learned:** I learned how to leverage AI to manage a network.  By utilizing
+an AI agent I can more easily manage a network.
